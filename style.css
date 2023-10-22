@@ -1,0 +1,90 @@
+/* Style for the library container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 5px #888888;
+  border-radius: 5px;
+}
+
+.book-card h3 {
+  font-size: 20px;
+}
+
+#new-book-form {
+  display: none;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#new-book-form input[type="text"],
+#new-book-form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#new-book-form label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#new-book-form button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-card button {
+  display: block;
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-card button.toggle-read {
+  background-color: #28a745;
+}
+
+.book-card button.remove {
+  background-color: #dc3545;
+}
+
+#new-book-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#new-book-button:hover {
+  background-color: #0056b3;
+}
+
+#new-book-button:focus {
+  outline: none;
+}
